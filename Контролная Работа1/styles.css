@@ -1,0 +1,28 @@
+
+.logo img{
+    max-width:10%;
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-width: 300px;
+    margin: 10px;
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+}
+
+.promotion {
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-width: 300px;
+    margin: 10px;
+    text-align: center;
+}
+
+.promotion img {
+    max-width: 100%;
+}
