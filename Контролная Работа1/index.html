@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <title>Online store</title>
 </head>
 <body>
@@ -22,7 +23,6 @@
     </header>
     <main>
         <section class="products">
-            <!-- Product cards go here -->
             <div class = "product-card">
                 <img src = "images\product1.jpg" alt ="Product 1">
                 <h3> Product 1 </h3>
@@ -55,7 +55,6 @@
             </div>
         </section>
         <section class="promotions">
-            <!-- Promotional offers go here -->
             <div class="promotion">
                 <img src="images\promotion1.jpg" alt="Promotion 1">
                 <h3>Elite Fitness Promotion</h3>
@@ -72,12 +71,21 @@
             Phone: +7 (999) 999 9901
         </address>
         <div class="social">
-            <a href="#">Facebook</a>
-            <a href="#">Twitter</a>
-            <a href="#">Instagram</a>
+            <a class = "social-icon" href="#https://Facebook.com" target = "_blank"> Facebook
+                <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+            <a class = "social-icon" href="#https://Twitter.com" target = "_blank"> Twitter  
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            <a class = "social-icon" href="#https://Instargram.com" target = "_blank"> Instagram
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
         </div>
     </footer>
     <script src = "script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
 </body>
 </html>
 
